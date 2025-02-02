@@ -1,0 +1,22 @@
+<header class="bg-white">
+  <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+    <div class="flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between">
+      <div>
+        <%= link_to 'Try Rails', root_path, class:"text-2xl font-bold text-gray-900 sm:text-3xl" %>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <%= link_to 'Home', root_path, class:"hover:bg-green-300 inline-flex items-center justify-center gap-1.5 rounded-sm border border-gray-200 bg-white px-5 py-3 text-gray-900 transition hover:text-gray-700 focus:ring-3 focus:outline-hidden" %>
+        
+        <%= link_to 'About', home_about_path, class:"hover:bg-green-300 inline-flex items-center justify-center gap-1.5 rounded-sm border border-gray-200 bg-white px-5 py-3 text-gray-900 transition hover:text-gray-700 focus:ring-3 focus:outline-hidden" %>
+          
+        <button
+          class="inline-block rounded-sm bg-indigo-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:ring-3 focus:outline-hidden"
+          type="button"
+        >
+          Create Post
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
